@@ -6,57 +6,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mohamed Ibrahim S. | Engineering Portfolio</title>
+    <title>Mohamed Ibrahim S. | Personal Portfolio</title>
 
     <meta name="description"
-        content="Personal engineering portfolio of Mohamed Ibrahim S., an Electronics Systems student at IIT Madras.">
+        content="Personal portfolio of Mohamed Ibrahim S., an Electronics Systems student at IIT Madras and BBA student at IIM Bangalore.">
 
+    <!-- External CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
     <!-- HEADER SECTION -->
     <header>
-        <h1>MOHAMED IBRAHIM S.</h1>
-        <p>Electronics Systems Student | Aspiring Engineer</p>
+
+        <h1>MOHAMED IBRAHIM S</h1>
+
+        <p>Engineering | Business | Technology | Entrepreneurship</p>
 
         <!-- NAVIGATION BAR -->
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+
     </header>
 
 
+    <!-- MAIN CONTENT -->
     <main>
 
         <!-- HOME SECTION -->
-        <section id="home">
+        <section id="home" class="hero">
 
-            <img src="assets/profile.jpg"
-                 alt="Photograph of Mohamed Ibrahim S."
-                 width="200">
+            <div class="hero-text">
 
-            <h2>Hello, I'm Mohamed Ibrahim!</h2>
+                <h2>Hello, I'm Mohamed Ibrahim!</h2>
 
-            <p>
-                Welcome to my personal engineering portfolio.
-                I am an Electronics Systems student interested
-                in electronics, programming, embedded systems
-                and technology.
-            </p>
+                <p>
+                    Electronic Systems Student at IIT Madras |
+                    BBA Student at IIM Bangalore
+                </p>
 
-            <p>
-                I enjoy exploring how hardware and software
-                work together to solve real-world problems.
-            </p>
+                <p>
+                    Welcome to my personal portfolio.
+                    I am interested in electronics, programming,
+                    embedded systems, VLSI and technology.
+                </p>
+
+                <p>
+                    I enjoy exploring how engineering,
+                    technology and business perspectives
+                    can come together to solve real-world problems.
+                </p>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <img src="assets/IBRAHIM%20PHOTO.jpeg"
+                     alt="Photograph of Mohamed Ibrahim S.">
+
+            </div>
 
         </section>
 
@@ -67,77 +84,91 @@
             <h2>About Me</h2>
 
             <p>
-                I am pursuing the Bachelor of Science in
+                I am pursuing a Bachelor of Science in
                 Electronics Systems at the Indian Institute
-                of Technology Madras (IIT Madras).
+                of Technology Madras (IIT Madras), alongside
+                a Bachelor of Business Administration in Digital Business and Entrepreneurship at
+                the Indian Institute of Management Bangalore
+                (IIM Bangalore).
             </p>
 
             <p>
                 My academic interests include electronic
                 circuits, digital systems, programming,
-                embedded systems and signal processing.
+                embedded systems, VLSI and signal processing.
+                I am also interested in business, innovation
+                and entrepreneurship.
             </p>
 
             <p>
-                I aim to strengthen my technical knowledge
-                through practical experimentation,
-                academic projects and continuous learning.
+                I aim to strengthen my technical and
+                analytical skills through practical
+                experimentation, academic projects
+                and continuous learning.
             </p>
 
-        </section>
 
+            <!-- EDUCATION -->
+            <div class="education">
 
-        <!-- EDUCATION SECTION -->
-        <section id="education">
+                <h3>Education</h3>
 
-            <h2>Education</h2>
-
-            <article>
-                <h3>Indian Institute of Technology Madras</h3>
+                <h4>Indian Institute of Technology Madras</h4>
 
                 <p>
                     <strong>Degree:</strong>
-                    Bachelor of Science in Electronics Systems
+                    Bachelor of Science (BS) in Electronic Systems,
+                    Year : 2/4
                 </p>
+
+
+                <h4>Indian Institute of Management Bangalore</h4>
 
                 <p>
-                    <strong>Institution:</strong>
-                    IIT Madras
+                    <strong>Degree:</strong>
+                    Bachelor of Business Administration (BBA) in Digital Business and Entrepreneurship,
+                    Year : 1/3
                 </p>
 
-                <p>
-                    <strong>Relevant Coursework:</strong>
-                    Electrical and Electronic Circuits,
-                    Digital Systems, C Programming,
-                    Embedded C and Electronics Laboratory.
-                </p>
-            </article>
-
-        </section>
+            </div>
 
 
-        <!-- SKILLS SECTION -->
-        <section id="skills">
+            <!-- TECHNICAL SKILLS -->
+            <div class="skills">
 
-            <h2>Technical Skills</h2>
+                <h3>Skills and Areas of Interest</h3>
 
-            <h3>Programming and Computing</h3>
+                <h4>Programming and Computing</h4>
 
-            <ul>
-                <li>C Programming</li>
-                <li>Linux</li>
-                <li>HTML (Learning)</li>
-                <li>CSS (Learning)</li>
-            </ul>
+                <ul>
+                    <li>C Programming</li>
+                    <li>Linux</li>
+                    <li>Embedded C</li>
+                    <li>Python (Learning)</li>
+                    <li>HTML and CSS</li>
+                </ul>
 
-            <h3>Electronics</h3>
 
-            <ul>
-                <li>Basic Circuit Analysis</li>
-                <li>Digital Systems</li>
-                <li>Electronic Circuit Laboratory</li>
-                <li>Basic Embedded Systems</li>
-            </ul>
+                <h4>Electronics and Engineering</h4>
+
+                <ul>
+                    <li>Circuit Analysis</li>
+                    <li>Digital Systems</li>
+                    <li>Electronic Circuits</li>
+                    <li>Embedded Systems</li>
+                    <li>VLSI and Signal Processing</li>
+                </ul>
+
+
+                <h4>Business and Technology</h4>
+
+                <ul>
+                    <li>Digital Business</li>
+                    <li>Innovation</li>
+                    <li>Entrepreneurship</li>
+                </ul>
+
+            </div>
 
         </section>
 
@@ -147,7 +178,8 @@
 
             <h2>Academic Projects and Practical Work</h2>
 
-            <article>
+            <article class="project-card">
+
                 <h3>Low-Pass and High-Pass Filters</h3>
 
                 <p>
@@ -157,14 +189,17 @@
                     as part of electronics laboratory work.
                 </p>
 
-                <p><strong>Technologies:</strong>
-                    Electronic Components, ADALM1000,
-                    Circuit Analysis
+                <p>
+                    <strong>Technologies:</strong>
+                    Electronic Components, ADALM1000.
+            
                 </p>
+
             </article>
 
 
-            <article>
+            <article class="project-card">
+
                 <h3>Half-Wave Rectifier Circuit</h3>
 
                 <p>
@@ -173,10 +208,12 @@
                     practical electronic circuit experiments.
                 </p>
 
-                <p><strong>Technologies:</strong>
+                <p>
+                    <strong>Technologies:</strong>
                     Diodes, Resistors, Capacitors,
                     Breadboard and ADALM1000
                 </p>
+
             </article>
 
         </section>
@@ -189,18 +226,24 @@
 
             <p>
                 I am interested in learning, collaborating
-                and exploring opportunities in technology
-                and engineering.
+                and exploring opportunities in engineering,
+                technology and business.
             </p>
 
             <p>
                 <strong>Email:</strong>
-                Add your email address here
+                <a href="mailto:your-email@example.com">
+                    ibrahim31205@gmail.com
+                </a>
             </p>
 
             <p>
                 <strong>GitHub:</strong>
-                Add your GitHub profile link here
+                <a href="https://github.com/your-username"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    https://github.com/Ibrahim31205
+                </a>
             </p>
 
         </section>
@@ -223,3 +266,4 @@
 </body>
 
 </html>
+
